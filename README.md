@@ -2,8 +2,6 @@ This is a demo project based on [Ionic](http://ionicframework.com/docs/).
 
 ## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
 To run this repository, you must have [Node.js](https://nodejs.org/en/), [Ionic](http://ionicframework.com/docs/) and [Cordova](https://cordova.apache.org/) installed.
 
 ### Steps of installation:
