@@ -1,26 +1,30 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is a demo project based on [Ionic](http://ionicframework.com/docs/).
 
 ## How to use this template
 
 *This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+To run this repository, you must have [Node.js](https://nodejs.org/en/), [Ionic](http://ionicframework.com/docs/) and [Cordova](https://cordova.apache.org/) installed.
 
-### With the Ionic CLI:
+### Steps of installation:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
+First download and install node.js from their official website. A regular Node install will also include NPM(Node Package Manager) which is required for installing the Ionic and Cordova. Once node is installed, simply type the below command in the Terminal(Mac)/Command Prompt(Windows).
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ npm install -g ionic cordova
+```
+*FOR MAC USERS: You may have to prefix sudo in this command if you face any issues.
+
+To use this template, simply clone this repository or download it as a zip and decompress the files. Then, navigate to the project folder and type the below command in the Terminal(Mac)/Command Prompt(Windows).
+
+```bash
+$ ionic serve
 ```
 
-Substitute ios for android if not on a Mac.
+This should run the project. In case you encounter any Node modules issues, please run the below command and try again:
 
+```bash
+$ npm install --force-install
+```
+
+Cheers!
