@@ -11,7 +11,7 @@ First download and install node.js from their official website. A regular Node i
 ```bash
 $ npm install -g ionic cordova
 ```
-*FOR MAC USERS: You may have to prefix sudo in this command if you face any issues.
+*FOR MAC USERS: You may have to prefix sudo in this command if you face any issues.*
 
 To use this template, simply clone this repository or download it as a zip and decompress the files. Then, navigate to the project folder and type the below command in the Terminal(Mac)/Command Prompt(Windows).
 
